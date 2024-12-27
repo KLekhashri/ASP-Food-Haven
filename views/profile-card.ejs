@@ -1,0 +1,16 @@
+<a href="recipe/<%= recipe.id %>" class="card-link">
+  <article class="card rounded shadow mb-4 profile-card" style="height: 350px;">
+    <img
+      src="images/<%= recipe.Image_Name %>.jpg"
+      class="card-img-top"
+      alt="Recipe Image"
+    />
+    <div class="card-body">
+      <!-- Move the title to the bottom -->
+      <div class="profile-card-content">
+        <h5 class="card-title profile-card-title text-white"><%= recipe.Title %></h5>
+      </div>
+      <!-- You can keep or modify other content as needed -->
+    </div>
+  </article>
+</a>

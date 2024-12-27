@@ -1,0 +1,246 @@
+/* page css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-content {
+  margin-top: 85px;
+  background-color: white;
+  max-width: 100%;
+}
+
+.page-no-sidebar {
+  margin-left: 0;
+}
+
+/* navigation css */
+.navigation-bar {
+  padding: 5px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  z-index: 3;
+}
+
+/* burger menu placement */
+.burger-menu button {
+  color: black;
+  background-color: transparent;
+  padding-top: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 4px;
+  margin-bottom: 3px;
+}
+
+/* button placement */
+.nav-item a {
+  color: black;
+  padding-top: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.nav-item btn {
+  color: #fff;
+}
+
+/* hover styles */
+.input-group-append button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(177, 192, 157);
+}
+
+/* sidebar css */
+.sidebar {
+  width: 270px;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0px; /*length of the sidebar*/
+  background-color: white;
+  overflow-y: auto;
+  padding-bottom: 40px;
+  z-index: 4;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.sidebar-burger-menu button {
+  color: black;
+  background-color: transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+.sidebar-burger-menu button:hover {
+  color: #61876e;
+}
+
+.sidebar li.nav-item {
+  margin: 0 10px;
+}
+
+.sidebar li.nav-item:hover {
+  background-color: rgb(177, 192, 157);
+  border-radius: 10px;
+}
+
+.nav-link span {
+  padding: 0 15px;
+  vertical-align: bottom;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.minimised-sidebar {
+  width: 0;
+}
+
+.black-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 270px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.black-overlay {
+  display: none;
+}
+
+/* footer css */
+.footer {
+  background-color: #9babbb;
+  color: white;
+}
+
+/* footer styling */
+.footer {
+  background-color: #3c6255;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer i {
+  font-size: 2rem;
+}
+
+/* card styling */
+.recipe-instructions {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  word-break: var(--word-break, "none");
+  overflow: hidden;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #4b6955 !important;
+}
+
+.border-primary {
+  border-color: #61876e !important;
+}
+
+.navigation-bar.btn:hover {
+  color: #52725d !important;
+}
+
+.btn:hover {
+  color: #61876e !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #61876e !important;
+  border-color: #61876e !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #52725d !important;
+  border-color: #4b6955 !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(97, 135, 110, 0.5);
+}
+
+/* landing styling */
+
+#landing-hero-text {
+  background: url("../images/vegetables-set-left-black-slate.jpg");
+  background-size: cover;
+  color: white;
+}
+
+
+.card-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+}
+
+.profile-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile-card img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 60%, transparent 100%);
+}
+
+
+
+.profile-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+.profile-card:hover .card-title {
+  text-decoration: underline;
+}
+
+.profile-card-content .card-title {
+  text-decoration: none;
+}
+
+
+
